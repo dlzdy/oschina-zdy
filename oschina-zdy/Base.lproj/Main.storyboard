@@ -27,12 +27,13 @@
                             </switch>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="1" green="0.15228050260000001" blue="0.15011458089999999" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="动弹" image="tabbar-tweet" selectedImage="tabbar-tweet-selected" id="Hm1-uL-Jxh"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ggh-pG-v0V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-909" y="-509"/>
+            <point key="canvasLocation" x="-971" y="-661"/>
         </scene>
         <!--我的-->
         <scene sceneID="jcH-lf-afi">
@@ -51,7 +52,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VA1-en-BUW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-909" y="977"/>
+            <point key="canvasLocation" x="-1549" y="943"/>
         </scene>
         <!--发现-->
         <scene sceneID="TqC-gL-pDJ">
@@ -113,11 +114,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="综合" image="tabbar-news" badgeValue="2" selectedImage="tabbar-news-selected" id="U4b-vX-fm7"/>
+                    <tabBarItem key="tabBarItem" title="综合" image="tabbar-news" badgeValue="2" selectedImage="tabbar-news-selected" id="U4b-vX-fm7" colorLabel="IBBuiltInLabel-Orange"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Ly-zt-mDh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-908" y="-1176"/>
+            <point key="canvasLocation" x="-971" y="-1391"/>
         </scene>
         <!--主界面-->
         <scene sceneID="ZPu-Nt-1ZY">
