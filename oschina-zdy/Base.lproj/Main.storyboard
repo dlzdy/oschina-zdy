@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="XEK-We-4vQ">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="XEK-We-4vQ">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -55,23 +55,164 @@
             <point key="canvasLocation" x="-1549" y="943"/>
         </scene>
         <!--发现-->
-        <scene sceneID="TqC-gL-pDJ">
+        <scene sceneID="ET6-kN-QpM">
             <objects>
-                <viewController id="Ya5-RQ-p9b" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="JWA-4F-Tc4"/>
-                        <viewControllerLayoutGuide type="bottom" id="uQP-03-3lW"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="yAO-av-hL7">
+                <tableViewController title="发现" id="7Ak-FF-Q08" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="stj-QP-13Y">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="发现" image="tabbar-discover" selectedImage="tabbar-discover-selected" id="smj-NX-AGC"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7wL-bx-3qJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <sections>
+                            <tableViewSection id="cbI-gB-Xv5">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="3Zo-dv-Ggh" imageView="gZI-Ka-f7T" style="IBUITableViewCellStyleDefault" id="b1K-7O-0zB">
+                                        <rect key="frame" x="0.0" y="35" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="b1K-7O-0zB" id="Qn9-WF-2yG">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="码云推荐" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="3Zo-dv-Ggh">
+                                                    <rect key="frame" x="59" y="0.0" width="226" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="ic_discover_git" id="gZI-Ka-f7T">
+                                                    <rect key="frame" x="15" y="7" width="29" height="29"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="1rV-rT-37o" imageView="Qr3-vX-A5K" style="IBUITableViewCellStyleDefault" id="DeN-mm-ViR">
+                                        <rect key="frame" x="0.0" y="79" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DeN-mm-ViR" id="wFa-0v-FzA">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="开源软件" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1rV-rT-37o">
+                                                    <rect key="frame" x="59" y="0.0" width="226" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="ic_discover_softwares" id="Qr3-vX-A5K">
+                                                    <rect key="frame" x="15" y="7" width="29" height="29"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection id="3W0-zr-sa1">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="apy-Fz-jFq" imageView="TTm-an-hCa" style="IBUITableViewCellStyleDefault" id="Trb-GD-76L">
+                                        <rect key="frame" x="0.0" y="159" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Trb-GD-76L" id="ZUW-Sr-iL7">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="扫一扫" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="apy-Fz-jFq">
+                                                    <rect key="frame" x="59" y="0.0" width="226" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="ic_discover_scan" id="TTm-an-hCa">
+                                                    <rect key="frame" x="15" y="7" width="29" height="29"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="DaV-K9-xsd" imageView="PrW-z2-KPO" style="IBUITableViewCellStyleDefault" id="fGU-KB-FCP">
+                                        <rect key="frame" x="0.0" y="203" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fGU-KB-FCP" id="X15-cO-ZXm">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="摇一摇" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="DaV-K9-xsd">
+                                                    <rect key="frame" x="59" y="0.0" width="226" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="ic_discover_shake" id="PrW-z2-KPO">
+                                                    <rect key="frame" x="15" y="7" width="29" height="29"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection id="uQ9-kD-e4L">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="jai-ru-Qw3" imageView="9FA-jG-imO" style="IBUITableViewCellStyleDefault" id="oVy-z3-AgS">
+                                        <rect key="frame" x="0.0" y="283" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oVy-z3-AgS" id="TWK-WQ-IAd">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="附近的程序员" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jai-ru-Qw3">
+                                                    <rect key="frame" x="59" y="0.0" width="226" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="ic_discover_nearby" id="9FA-jG-imO">
+                                                    <rect key="frame" x="15" y="7" width="29" height="29"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="CuL-HM-bTb" imageView="RCK-A5-NcH" style="IBUITableViewCellStyleDefault" id="D0e-rx-J2I">
+                                        <rect key="frame" x="0.0" y="327" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="D0e-rx-J2I" id="CbZ-PW-azH">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="线下活动" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="CuL-HM-bTb">
+                                                    <rect key="frame" x="59" y="0.0" width="226" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="ic_discover_gist" id="RCK-A5-NcH">
+                                                    <rect key="frame" x="15" y="7" width="29" height="29"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="7Ak-FF-Q08" id="iS1-YX-Yvv"/>
+                            <outlet property="delegate" destination="7Ak-FF-Q08" id="x3q-nJ-hcU"/>
+                        </connections>
+                    </tableView>
+                    <tabBarItem key="tabBarItem" title="发现" image="tabbar-discover" selectedImage="tabbar-discover-selected" id="pvg-nc-Tnm"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QU4-Bg-h6M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-909" y="280"/>
+            <point key="canvasLocation" x="-971" y="254"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tYz-tJ-ghF">
@@ -86,9 +227,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="team-create" id="Ocl-5C-F9b">
-                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
-                    </tabBarItem>
+                    <tabBarItem key="tabBarItem" title="" image="ic_nav_add_normal" selectedImage="ic_nav_add_actived" id="Ocl-5C-F9b"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4lU-47-dge" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -133,9 +272,9 @@
                         <segue destination="NCV-HW-6Rr" kind="relationship" relationship="viewControllers" id="J7Y-qa-qgk"/>
                         <segue destination="8BP-ac-tsa" kind="relationship" relationship="viewControllers" id="44w-I5-Gdp"/>
                         <segue destination="Apc-tx-WbZ" kind="relationship" relationship="viewControllers" id="slL-eY-wZW"/>
-                        <segue destination="Ya5-RQ-p9b" kind="relationship" relationship="viewControllers" id="ukv-Ye-gaq"/>
-                        <segue destination="IAx-Th-M3D" kind="relationship" relationship="viewControllers" id="sBY-1i-xGI"/>
-                    </connections>
+                        <segue destination="7Ak-FF-Q08" kind="relationship" relationship="viewControllers" id="f72-Zr-oqb"/>
+                       <segue destination="IAx-Th-M3D" kind="relationship" relationship="viewControllers" id="sBY-1i-xGI"/>
+                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GK5-ME-ZeX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -143,6 +282,14 @@
         </scene>
     </scenes>
     <resources>
+        <image name="ic_discover_gist" width="29" height="29"/>
+        <image name="ic_discover_git" width="29" height="29"/>
+        <image name="ic_discover_nearby" width="29" height="29"/>
+        <image name="ic_discover_scan" width="29" height="29"/>
+        <image name="ic_discover_shake" width="29" height="29"/>
+        <image name="ic_discover_softwares" width="29" height="29"/>
+        <image name="ic_nav_add_actived" width="43" height="43"/>
+        <image name="ic_nav_add_normal" width="43" height="43"/>
         <image name="tabbar-discover" width="25" height="25"/>
         <image name="tabbar-discover-selected" width="25" height="25"/>
         <image name="tabbar-me" width="26" height="26"/>
@@ -151,6 +298,5 @@
         <image name="tabbar-news-selected" width="24" height="25"/>
         <image name="tabbar-tweet" width="26" height="28"/>
         <image name="tabbar-tweet-selected" width="26" height="28"/>
-        <image name="team-create" width="22" height="22"/>
     </resources>
 </document>
