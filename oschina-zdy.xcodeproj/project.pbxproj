@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F4301B11EFB6BD200DCC406 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4301B01EFB6BD200DCC406 /* Assets.xcassets */; };
 		1FF225B01EFB5E06005E17E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF225AF1EFB5E06005E17E8 /* main.m */; };
 		1FF225B31EFB5E06005E17E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF225B21EFB5E06005E17E8 /* AppDelegate.m */; };
 		1FF225B61EFB5E06005E17E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF225B51EFB5E06005E17E8 /* ViewController.m */; };
 		1FF225B91EFB5E06005E17E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FF225B71EFB5E06005E17E8 /* Main.storyboard */; };
-		1FF225BB1EFB5E06005E17E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FF225BA1EFB5E06005E17E8 /* Assets.xcassets */; };
 		1FF225BE1EFB5E06005E17E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FF225BC1EFB5E06005E17E8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F4301B01EFB6BD200DCC406 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FF225AB1EFB5E06005E17E8 /* oschina-zdy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "oschina-zdy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF225AF1EFB5E06005E17E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1FF225B11EFB5E06005E17E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -23,7 +24,6 @@
 		1FF225B41EFB5E06005E17E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1FF225B51EFB5E06005E17E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1FF225B81EFB5E06005E17E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1FF225BA1EFB5E06005E17E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FF225BD1EFB5E06005E17E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FF225BF1EFB5E06005E17E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,9 +63,9 @@
 				1FF225B41EFB5E06005E17E8 /* ViewController.h */,
 				1FF225B51EFB5E06005E17E8 /* ViewController.m */,
 				1FF225B71EFB5E06005E17E8 /* Main.storyboard */,
-				1FF225BA1EFB5E06005E17E8 /* Assets.xcassets */,
 				1FF225BC1EFB5E06005E17E8 /* LaunchScreen.storyboard */,
 				1FF225BF1EFB5E06005E17E8 /* Info.plist */,
+				1F4301B01EFB6BD200DCC406 /* Assets.xcassets */,
 				1FF225AE1EFB5E06005E17E8 /* Supporting Files */,
 			);
 			path = "oschina-zdy";
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FF225BE1EFB5E06005E17E8 /* LaunchScreen.storyboard in Resources */,
-				1FF225BB1EFB5E06005E17E8 /* Assets.xcassets in Resources */,
+				1F4301B11EFB6BD200DCC406 /* Assets.xcassets in Resources */,
 				1FF225B91EFB5E06005E17E8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +309,7 @@
 				1FF225C41EFB5E06005E17E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
