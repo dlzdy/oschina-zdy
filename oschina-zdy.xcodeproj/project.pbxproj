@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1F4301B11EFB6BD200DCC406 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4301B01EFB6BD200DCC406 /* Assets.xcassets */; };
+		1FAE122D1EFD4A7E0043AF9B /* DiscoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAE122C1EFD4A7E0043AF9B /* DiscoverController.m */; };
+		1FAE12321EFD4F5D0043AF9B /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FAE12311EFD4F5D0043AF9B /* Discover.storyboard */; };
+		1FAE12351EFD665A0043AF9B /* DiscoverDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FAE12341EFD665A0043AF9B /* DiscoverDetailViewController.m */; };
 		1FF225B01EFB5E06005E17E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF225AF1EFB5E06005E17E8 /* main.m */; };
 		1FF225B31EFB5E06005E17E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF225B21EFB5E06005E17E8 /* AppDelegate.m */; };
 		1FF225B61EFB5E06005E17E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF225B51EFB5E06005E17E8 /* ViewController.m */; };
@@ -17,6 +20,11 @@
 
 /* Begin PBXFileReference section */
 		1F4301B01EFB6BD200DCC406 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FAE122B1EFD4A7E0043AF9B /* DiscoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiscoverController.h; path = discover/DiscoverController.h; sourceTree = "<group>"; };
+		1FAE122C1EFD4A7E0043AF9B /* DiscoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DiscoverController.m; path = discover/DiscoverController.m; sourceTree = "<group>"; };
+		1FAE12311EFD4F5D0043AF9B /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Discover.storyboard; path = discover/Discover.storyboard; sourceTree = "<group>"; };
+		1FAE12331EFD665A0043AF9B /* DiscoverDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverDetailViewController.h; sourceTree = "<group>"; };
+		1FAE12341EFD665A0043AF9B /* DiscoverDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverDetailViewController.m; sourceTree = "<group>"; };
 		1FF225AB1EFB5E06005E17E8 /* oschina-zdy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "oschina-zdy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FF225AF1EFB5E06005E17E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1FF225B11EFB5E06005E17E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +47,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1FAE122E1EFD4AA70043AF9B /* discover */ = {
+			isa = PBXGroup;
+			children = (
+				1FAE12311EFD4F5D0043AF9B /* Discover.storyboard */,
+				1FAE12331EFD665A0043AF9B /* DiscoverDetailViewController.h */,
+				1FAE12341EFD665A0043AF9B /* DiscoverDetailViewController.m */,
+			);
+			name = discover;
+			sourceTree = "<group>";
+		};
 		1FF225A21EFB5E05005E17E8 = {
 			isa = PBXGroup;
 			children = (
@@ -62,11 +80,14 @@
 				1FF225B21EFB5E06005E17E8 /* AppDelegate.m */,
 				1FF225B41EFB5E06005E17E8 /* ViewController.h */,
 				1FF225B51EFB5E06005E17E8 /* ViewController.m */,
+				1FAE122B1EFD4A7E0043AF9B /* DiscoverController.h */,
+				1FAE122C1EFD4A7E0043AF9B /* DiscoverController.m */,
 				1FF225B71EFB5E06005E17E8 /* Main.storyboard */,
 				1FF225BC1EFB5E06005E17E8 /* LaunchScreen.storyboard */,
 				1FF225BF1EFB5E06005E17E8 /* Info.plist */,
 				1F4301B01EFB6BD200DCC406 /* Assets.xcassets */,
 				1FF225AE1EFB5E06005E17E8 /* Supporting Files */,
+				1FAE122E1EFD4AA70043AF9B /* discover */,
 			);
 			path = "oschina-zdy";
 			sourceTree = "<group>";
@@ -138,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FF225BE1EFB5E06005E17E8 /* LaunchScreen.storyboard in Resources */,
+				1FAE12321EFD4F5D0043AF9B /* Discover.storyboard in Resources */,
 				1F4301B11EFB6BD200DCC406 /* Assets.xcassets in Resources */,
 				1FF225B91EFB5E06005E17E8 /* Main.storyboard in Resources */,
 			);
@@ -152,7 +174,9 @@
 			files = (
 				1FF225B61EFB5E06005E17E8 /* ViewController.m in Sources */,
 				1FF225B31EFB5E06005E17E8 /* AppDelegate.m in Sources */,
+				1FAE122D1EFD4A7E0043AF9B /* DiscoverController.m in Sources */,
 				1FF225B01EFB5E06005E17E8 /* main.m in Sources */,
+				1FAE12351EFD665A0043AF9B /* DiscoverDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
