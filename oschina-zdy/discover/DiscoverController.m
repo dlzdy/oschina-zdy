@@ -100,10 +100,13 @@
     //UINavigationController *discoverNav = [discoverSB instantiateViewControllerWithIdentifier:@"Nav"];
     
     UIViewController *gitController = [discoverSB instantiateViewControllerWithIdentifier:@"Git"];
-    //[self.navigationController pushViewController:gitController animated:YES];
-    [self.navigationController presentViewController:gitController animated:YES completion:nil];
-    NSLog(@"%d",indexPath.row);
+    [self.navigationController pushViewController:gitController animated:YES];
+    //[self.navigationController presentViewController:gitController animated:YES completion:nil];
+    
+    
+    //UIViewController *gitCodeController = [self.storyboard instantiateViewControllerWithIdentifier:@"GitCode"];
 
+    //[self.navigationController pushViewController:gitCodeController animated:YES];
 }
 
 
